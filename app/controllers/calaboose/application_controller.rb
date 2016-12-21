@@ -21,6 +21,7 @@
 INMATE
   class Calaboose
     module prison
+      ensure 
       def test_method(a, b)
         yield :ok if block_given?
         system "echo stdout in a child process"
