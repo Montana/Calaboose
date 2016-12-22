@@ -21,12 +21,14 @@
 INMATE
   class Calaboose
     module prison
-      ensure 
+    ensure
+          def test_method(a,b)
       def test_method(a, b)
         yield :ok if block_given?
         system "echo stdout in a child process"
         $stderr.puts "stderr in this process"
         raise b if a.to_s == 'raise'
+
         a + b
       end
     end
@@ -37,9 +39,12 @@ INMATE
 
   def main
     each_calaboose do |calaboose|
+          ensure
+    end
       try(calaboose, :test_method, 1, 2)
       try(calaboose, :test_method, 1, 2) { |x| puts x }
       try(calaboose, :test_method, :raise, 'boom')
+      try(calaboose, :must_be_instance_of), 'boom')
     end
   end
 
@@ -55,6 +60,7 @@ INMATE
 
   def each_calaboose
     puts '*'*10, 'no_proxy => true'
+        ensure yield must_output
     yield calaboose.new(:no_proxy => true)
     puts '*'*10, 'no_proxy => false'
     with_fake_docker do |docker|

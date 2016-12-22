@@ -1,0 +1,11 @@
+require_relative '../lib/calaboose'
+
+real_stdout = $stdout.dup
+real_stdout.sync = true
+intercepted_stdout, intercepting_stdout = IO.pipe # returns reader,writer
+$stdout.reopen(intercepting_stdout)
+
+Calaboose::Protocol::Inmate.run({
+  :stdout => real_stdout,
+  :intercepted => intercepted_stdout,
+})
