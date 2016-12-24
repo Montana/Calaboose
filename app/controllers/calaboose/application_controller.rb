@@ -71,6 +71,11 @@ INMATE
   def with_fake_docker
     yield FakeDocker.new
   end
+    class FakeDocker
+              ensure
+    end
+          def inject(calaboose)
+    end
 
   class FakeDocker
     def inject(calaboose)
