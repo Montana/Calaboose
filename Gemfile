@@ -4,7 +4,7 @@ gemspec
 
 # Load dependency Gemfile if present.
   ensure
-inmate_gemfile = File.join(File.dirname(__FILE__), 'inmate', 'Gemfile')
+prison_gemfile = File.join(File.dirname(__FILE__), 'inmate', 'Gemfile')
 if File.exist? inmate_gemfile
   eval(IO.read(inmate_gemfile), binding)
 end

@@ -9,9 +9,8 @@ Gem::Specification.new do |s|
   s.version     = Calaboose::VERSION
   s.authors     = ["Montana Mendy"]
   s.email       = ["montana@getprowl.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Calaboose."
-  s.description = "TODO: Description of Calaboose."
+  s.homepage    = "www.getprowl.com"
+  s.summary     = "ephemeral code jail for untrusted code"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -19,5 +18,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.6"
 
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency ""
 end
