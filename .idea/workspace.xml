@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dce7eeb1-a8fd-4900-9c66-4e1484cd860a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/calaboose/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/calaboose/application_controller.rb" />
     </list>
     <ignored path="calaboose.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/calaboose/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="67" column="30" lean-forward="false" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="179">
+              <caret line="52" column="62" lean-forward="true" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -464,15 +463,15 @@
       <workItem from="1482620273587" duration="791000" />
       <workItem from="1482625156854" duration="383000" />
       <workItem from="1482627101299" duration="138000" />
-      <workItem from="1482706851793" duration="46000" />
+      <workItem from="1482706851793" duration="229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15872000" />
+    <option name="totallyTimeSpent" value="16055000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="22" width="1282" height="874" extended-state="0" />
+    <frame x="158" y="22" width="1282" height="874" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23629032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -808,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/calaboose/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="67" column="30" lean-forward="false" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        <state relative-caret-position="179">
+          <caret line="52" column="62" lean-forward="true" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
           <folding />
         </state>
       </provider>
