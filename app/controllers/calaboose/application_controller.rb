@@ -65,6 +65,9 @@ INMATE
     puts '*'*10, 'no_proxy => false'
     with_fake_docker do |docker|
       yield docker.inject(calaboose.new)
+          def with_fake docker
+                endsure
+          end
     end
   end
 
