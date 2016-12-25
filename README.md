@@ -37,4 +37,4 @@ As you can see the code above for Calaboose, ```ensure``` ensures that the code 
 
 Calaboose is not fully complete, and won't be until March 2017. As of now I'm keeping the source open for the people.
 
-Built for <a href="http://www.getprowl.com">Prowl</a>. Written by <a href="http://www.montanamendy.com">Montana Mendy</a> with some code was reused from Hoosegow made by <a href="http://www.github.com/GitHub/hoosegow">GitHub</a>
+Built for <a href="http://www.getprowl.com">Prowl</a>. Written by <a href="http://www.montanamendy.com">Montana Mendy</a> with some code reused from Hoosegow made by <a href="http://www.github.com/GitHub/hoosegow">GitHub</a>
