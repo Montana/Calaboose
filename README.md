@@ -35,6 +35,13 @@ As you can see the code above for Calaboose, ```ensure``` ensures that the code 
             {
 ```
 
+#### Building the Docker image
+
+As with Hoosegow, you can build the Docker image. This can be done in a rake task or bootstrap script:
+```ruby
+calaboose = Calaboose.new :prisoner_dir => File.join(RAILS_ROOT, "calaboose_ensure")
+```
+
 Calaboose is not fully complete, and won't be until March 2017. As of now I'm keeping the source open for the people.
 
 Built for <a href="http://www.getprowl.com">Prowl</a>. Written by <a href="http://www.montanamendy.com">Montana Mendy</a> with some code reused from Hoosegow made by <a href="http://www.github.com/GitHub/hoosegow">GitHub</a>.
