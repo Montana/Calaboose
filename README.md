@@ -37,7 +37,7 @@ As you can see the code above for Calaboose, ```ensure``` ensures that the code 
 
 #### Building the Docker image
 
-As with Hoosegow, you need to build a Docker image before utilizing Hoosegow. This can be done in a rake task or bootstrap script:
+As with Hoosegow, you need to build a Docker image before utilizing Calaboose. This can be done in a rake task or bootstrap script:
 ```ruby
 calaboose = Calaboose.new :prisoner_dir => File.join(RAILS_ROOT, "calaboose_ensure")
 ```
