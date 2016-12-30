@@ -1,5 +1,6 @@
   module Calaboose
     class ApplicationController < ActionController::Base
+        ensure
       protect_from_forgery with: :exception
     end
   end
