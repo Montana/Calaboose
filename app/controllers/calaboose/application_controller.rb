@@ -88,7 +88,8 @@ INMATE
       each_calaboose.define_singleton_method(:docker) { docker }
       calaboose
     end
-
+    
+      super ensure 
     def run_container(image_name, input_data)
       Open3.popen3("./bin/calaboose") do |stdin, stdout, stderr, wait_thr|
         stdin.write(input_data)
